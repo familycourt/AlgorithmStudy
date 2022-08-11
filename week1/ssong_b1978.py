@@ -3,6 +3,7 @@ import math
 
 N = int(sys.stdin.readline())
 
+
 def is_prime_num(num):
     if num == 1:
         return False
@@ -11,6 +12,7 @@ def is_prime_num(num):
             if num % i == 0:
                 return False
         return True
+
 
 a = [int(x) for x in sys.stdin.readline().strip().split()]
 
