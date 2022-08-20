@@ -7,7 +7,7 @@ def gcd(n, m):
     if n%m == 0 : return m
     else : return gcd(m, n%m)
 
-# 최대 공배수
+# 최소공배수
 def lcm(n, m):
     return n*m/gcd(n, m)
 
