@@ -2,9 +2,9 @@
 from sys import stdin
 
 # strip() : 양쪽 공백 날려줌
-n = stdin.readline.strip()
+n = int(stdin.readline().strip())
 
 m = (1+n)*n/2
 
-print(m)
+print(int(m))
 
