@@ -2,7 +2,7 @@
 
 import sys
 
-n, m = map(int, sys.stdin.readline().split())
+n, m = [int(x) for x in sys.stdin.readline().split()]
 
 if n == m:
     result = 1
@@ -12,7 +12,7 @@ else:
         total *= i
         if i == (n - m):
             factorial_n_minus_m = total
-        elif i ==  m:
+        if i == m:
             factorial_m = total
     result = total // (factorial_m * factorial_n_minus_m)
 
