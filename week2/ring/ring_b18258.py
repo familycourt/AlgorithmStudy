@@ -4,9 +4,9 @@
 
 import sys
 input = sys.stdin.readline
+from collections import deque
 
-head = 0
-queue = []
+queue = deque([])
 
 N = int(input().strip())
 for i in range(N) :
@@ -15,24 +15,23 @@ for i in range(N) :
     if command[0] == 'push' :
         queue.append(command[1])
     elif command[0] == 'pop' :
-        if head == len(queue):
+        if not queue:
             print(-1)
         else :
-            print(queue[head])
-            head += 1
+            print(queue.popleft())
     elif command[0] == 'size' :
-        print(len(queue)-head)
+        print(len(queue))
     elif command[0] == 'empty' :
-        if head == len(queue):
+        if not queue:
             print(1)
         else : print(0)
     elif command[0] == 'front' :
-        if head == len(queue):
+        if not queue:
             print(-1)
         else : 
-            print(queue[head])
+            print(queue[0])
     elif command[0] == 'back' :
-        if head == len(queue):
+        if not queue:
             print(-1)
         else : 
             print(queue[-1])
