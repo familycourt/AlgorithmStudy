@@ -18,4 +18,4 @@ for num in arr_M:
     total_M *= num
 
 result = math.gcd(total_N, total_M)
-print(str(result)[-9:])
+print(str(result)[-9:])  # 자리수 절삭 좋은방법 생각 필요
