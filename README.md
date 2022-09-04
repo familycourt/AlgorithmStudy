@@ -17,10 +17,10 @@
 
 | 주차 | 카테고리 | 문제 번호 | 참여자 |
 |---|---|---|---|
-| 1주차 | 수학 | [Week1 전체](https://www.acmicpc.net/workbook/view/8997) | 최옐인😎 |
-| 2주차 | 자료구조 (해시, 스택, 큐, 덱, 힙) | [WEEK2 전체](https://www.acmicpc.net/workbook/view/8999) |  |
-| 3주차 | 재귀, 정렬 |  |  |
-| 4주차 | 다이나믹 프로그래밍 (DP) |  |  |
+| 1주차 | 수학 | [Week1](https://www.acmicpc.net/workbook/view/8997) | 최옐인😎 |
+| 2주차 | 자료구조 (해시, 스택, 큐, 덱, 힙) | [Week2](https://www.acmicpc.net/workbook/view/8999) | 최옐인😊 |
+| 3주차 | 재귀, 정렬 | [Week3](https://www.acmicpc.net/workbook/view/9000) |  |
+| 4주차 | 다이나믹 프로그래밍 (DP) | [Week4](https://www.acmicpc.net/workbook/view/9001) |  |
 | 5주차 | 그래프 - 기초 DFS와 BFS |  |  |
 | 6주차 | DFS와 BFS 응용, 최단 경로 구하기 |  |  |
 | 7주차 | 이분 탐색과 분할정복 |  |  |
