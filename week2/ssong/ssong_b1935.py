@@ -14,7 +14,7 @@ diff_tmp = ord('A')
 stack = []
 
 for i in range(len(postfix)):
-    if(postfix[i] >= 'A' and postfix[i] <= 'Z'):
+    if(postfix[i] >= 'A' and postfix[i] <= 'Z'):  # 피연산자인 경우
         stack.append(operand[ord(postfix[i]) - diff_tmp])
     else:
         if(postfix[i] == '+'):
