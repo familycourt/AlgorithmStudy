@@ -6,7 +6,8 @@ from collections import deque
 N = int(sys.stdin.readline())
 
 A = [int(x) for x in sys.stdin.readline().rstrip().split()]
-
+# list insert 함수 O(N)
+# deque appendleft함수 O(1)
 stack = []
 answer = deque()
 for i in range(N - 1, -1, -1):
