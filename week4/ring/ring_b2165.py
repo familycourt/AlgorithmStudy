@@ -1,3 +1,5 @@
+# 내 코드가 통과는 했지만 굉장히 잘못됐음을 직감하고 참고하여 다시 작성
+
 import sys 
 import copy
 input = sys.stdin.readline
@@ -12,23 +14,6 @@ drinks = copy.deepcopy(glasses)
 if n!=1 : drinks[2] += drinks[1]  
 
 for i in range(3, n+1) :
-    if cnt == 2 :
-        # 차례대로 i(본인), i-1, i-2 뺀 경우 
-        tmp0 = drinks[i-1]      
-        tmp1 = drinks[i-2]+glasses[i]
-        tmp2 = drinks[i-3]+glasses[i-1]+glasses[i]
-        
-        if tmp0 >= max(tmp1, tmp2) :
-            cnt=0
-            drinks[i] = tmp0
-        elif tmp1 >= tmp2 :
-            cnt=1
-            drinks[i] = tmp1
-        else :
-            cnt=2
-            drinks[i] = tmp2
-    else : 
-        drinks[i] += drinks[i-1]
-        cnt += 1
-        
+    drinks[i] = max(drinks[i-1], drinks[i-2]+glasses[i], drinks[i-3]+glasses[i-1]+glasses[i])
+    
 print(drinks[n])
