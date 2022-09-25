@@ -22,9 +22,9 @@
 | 2주차  | 자료구조 (해시, 스택, 큐, 덱, 힙) | [Week2](https://www.acmicpc.net/workbook/view/8999) | 최옐인😊           |
 | 3주차  | 재귀, 정렬                        | [Week3](https://www.acmicpc.net/workbook/view/9000) | 최옐인😎                   |
 | 4주차  | 다이나믹 프로그래밍 (DP)          | [Week4](https://www.acmicpc.net/workbook/view/9001) |                    |
-|   특집   | 카카오 코딩테스트 기출            | [기출문제](https://school.programmers.co.kr/learn/challenges?page=1&partIds=31236)|       |
-| 5주차  | 그래프 - 기초 DFS와 BFS           |                                                     |                    |
+| 5주차  | 그래프 - 기초 DFS와 BFS           | [Week5](https://www.acmicpc.net/workbook/view/9003) |                    |
 | 6주차  | DFS와 BFS 응용, 최단 경로 구하기  |                                                     |                    |
+|   특집   | 카카오 코딩테스트 기출            | [기출문제](https://school.programmers.co.kr/learn/challenges?page=1&partIds=31236)|       |
 | 7주차  | 이분 탐색과 분할정복              |                                                     |                    |
 | 8주차  | 그리디 알고리즘                   |                                                     |                    |
 | 9주차  | 완전탐색과 시뮬레이션             |                                                     |                    |
