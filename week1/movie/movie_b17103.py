@@ -13,7 +13,7 @@ for i in range(2, MAX + 1):
 def getGoldbachPartitionCount(num):
     cnt = 0
 
-    for i in range(3, num // 2 + 1):
+    for i in range(num // 2 + 1):
         if isPrime[i] and isPrime[num - i]:
             cnt += 1
 
