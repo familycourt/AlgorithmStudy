@@ -28,6 +28,3 @@ def solution(queue1, queue2):
             result += 1
         else:
             return result
-
-
-print(solution([3, 2, 7, 2], [4, 6, 5, 1]))
